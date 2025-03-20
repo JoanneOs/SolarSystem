@@ -233,3 +233,6 @@ console.log(sum);
   // 6. Find the difference between Jupiter's momentum and Pluto's momentum. (To get momentum, you'll want the product of velocity and mass).
 
   let jupiterMomentum = system.jupiter.velocity * system.jupiter.mass;
+  let plutoMomentum = system.pluto.velocity * system.pluto.mass;
+  let momentumDifference = jupiterMomentum - plutoMomentum;
+  console.log(momentumDifference);
