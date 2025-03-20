@@ -16,7 +16,8 @@ const solarSystem = [
 
   
   // 2. Print the name of Neptune's moon "Nereid" to the console.
-  
+  console.log(solarSystem[7].moons[1]);
+
   
   // 3. Add a new moon called "Endor" to Venus' moons array.
   
