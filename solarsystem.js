@@ -228,6 +228,8 @@ console.log(sum);
     console.log(system.mercury.radiuse);
   }
   // 5. Console.log Mercury's radiusp (should be 2439, not 'same').
-  
+  //up
   
   // 6. Find the difference between Jupiter's momentum and Pluto's momentum. (To get momentum, you'll want the product of velocity and mass).
+
+  let jupiterMomentum = system.jupiter.velocity * system.jupiter.mass;
