@@ -12,7 +12,8 @@ const solarSystem = [
     { name: "Neptune", ringSystem: true, moons: ["Triton", "Nereid"] }
   ];
   // 1. Print the array of Jupiter's moons to the console (no for loop, just print the entire array).
-  
+  console.log(solarSystem[4].moons);
+
   
   // 2. Print the name of Neptune's moon "Nereid" to the console.
   
