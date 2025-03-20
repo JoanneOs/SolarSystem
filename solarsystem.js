@@ -51,6 +51,11 @@ console.log(solarSystem[2]);
 
   
   // 8. Iterate through the solarSystem array and print only the objects that have a ringSystem (where ringSystem: true), and ignore the others.
+  for(let i=0;i<solarSystem.length;i++){
+    if(solarSystem[i].ringSystem===true)
+  console.log(solarSystem[i]);
+  }
+
   //////////////////////////////
   // The Solar System, Part 2 //
   //////////////////////////////
