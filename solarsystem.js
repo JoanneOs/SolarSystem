@@ -35,12 +35,20 @@ const solarSystem = [
   
   // 5. Add a new key-value pair to the the Earth object: the key should be 'diameter', and the value should be Earth's diameter in miles represented as a string.
   
+  // Add a new key-value pair to the Earth object
+solarSystem[2].diameter = "about 12,756 kilometers";
+
+console.log(solarSystem[2]);
+
   
   // 6. Change Mercury's ringSystem boolean to true.
-  
-  
+  solarSystem[0].ringSystem='true';
+  console.log(solarSystem[0].ringSystem);
+
   // 7. Change Uranus' moon "Umbriel" to "Oberon"
-  
+  solarSystem[6].moons[3]='Oberon';
+  console.log(solarSystem[6].moons);
+
   
   // 8. Iterate through the solarSystem array and print only the objects that have a ringSystem (where ringSystem: true), and ignore the others.
   //////////////////////////////
