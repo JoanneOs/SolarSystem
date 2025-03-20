@@ -25,7 +25,13 @@ const solarSystem = [
 
   
   // 4. Add a Pluto object to the solarSystem array using .push. The object should contain Pluto's name, ringSystem boolean, and moons array (which includes "Charon").
-  
+  solarSystem.push({
+    name: "Pluto", 
+    ringSystem: false, 
+    moons: ["Charon"]
+  });
+  console.log(solarSystem);
+
   
   // 5. Add a new key-value pair to the the Earth object: the key should be 'diameter', and the value should be Earth's diameter in miles represented as a string.
   
